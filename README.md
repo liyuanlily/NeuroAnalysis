@@ -1,5 +1,5 @@
 # Code for Replay Analysis
-This is a realization of several analysis methods for hippocampal replay, including Bayesian Decoder, Gerneral Linear Model, and reactivation analysis, cluster identification, assembly analysis methods. These methods are for both 2P imaging and Neuropixels data. And some of the methods originated from recently published papers.
+This is a realization of several analysis methods to study hippocampal replay, including Bayesian Decoder, Gerneral Linear Model, and reactivation analysis, cluster identification, assembly analysis methods. These methods are for both 2P imaging and Neuropixels data. And some of the methods originated from recently published papers.
 
 The programming language is python.
 
@@ -11,7 +11,7 @@ You need to install the following python packages:
 * sklearn
 * matplotlib
 
-You can download the .py file and import functions in it to your python code.
+You can download the .py files and import functions in them to your python code.
 
 ## Usage
 For a more detailed illustration, please see Wiki (to be complete). 
@@ -20,7 +20,7 @@ For a more detailed illustration, please see Wiki (to be complete).
 After deconvolving 2P imaging or Neuropixels data, you can use functions in PreprocessData.py to adjust data into desired format for analysis afterwards.
 
 ### Reactivation Analysis
-After preprocessing the neural activity data, you want to detect High Synchrony Events (HSEs), find reactivated cells in each HSE, classify reactivated cells into assemblies and analysis the properties of the assemblies. 
+After preprocessing the neural activity data, you may want to detect High Synchrony Events (HSEs), find reactivated cells in each HSE, classify reactivated cells into assemblies and analysis the properties of the assemblies. 
 
 Needed functions can be found in ReactivationAnalysis.py, ClusterIdentification.py and AssemblyAnalysis.py.
 
