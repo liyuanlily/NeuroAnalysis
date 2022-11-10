@@ -34,4 +34,4 @@ Needed functions can be found in BayesianDecoder.py.
 ### GLM Encoder
 This is a realization of the GLM encoder for neural coding in Minderer, 2019.
 
-GLMEncoder.py is a cpu version based on numpy and scipy, while GLMTorch.py is a gpu version based on pytorch. The encoder runs much faster in pytorch.
+GLMEncoder.py is a simple version based on numpy and scipy, while GLMTorch.py is a version based on pytorch. The encoder runs much faster in pytorch.
